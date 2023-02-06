@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 import openai
 st.set_page_config(page_title="Butterfly Image Classification", page_icon="favicon.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
-openai.api_key= "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"
+openai.api_key= ""
 
 loaded_model = load_model('butterflyresnet50.hdf5')
 dataset= tf.keras.preprocessing.image_dataset_from_directory(
