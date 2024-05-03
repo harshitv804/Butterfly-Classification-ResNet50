@@ -1,1 +1,1 @@
-# butterfly-classification-resnet50
+# Butterfly Classification ResNet50
